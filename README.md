@@ -27,9 +27,9 @@ The static model utilizes the dataset `Static_dataset.csv` with 268,074 entries 
 - Best F1-Score: Random Forest with Chi-squared feature selection (0.86466).
 
 #### Results Visualization
-- [F1-Scores for Random Forest](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/22eed8c7-59f9-490b-8857-9ec651922b70)
-- [F1-Scores for Logistic Regression](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/7d8d0226-26d8-4781-ab78-f375aba9b5f4)
-- [Best Model F1-Score Comparison](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/19d5dd4b-f08e-4664-b049-5a8a0b851eac)
+- ![F1-Scores for Random Forest](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/22eed8c7-59f9-490b-8857-9ec651922b70)
+- ![F1-Scores for Logistic Regression](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/7d8d0226-26d8-4781-ab78-f375aba9b5f4)
+- ![Best Model F1-Score Comparison](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/19d5dd4b-f08e-4664-b049-5a8a0b851eac)
 
 ### Part 2: Dynamic Model
 The dynamic model processes data in windows of 1,000 records, continuously reevaluating and retraining when necessary.
@@ -45,8 +45,8 @@ The dynamic model processes data in windows of 1,000 records, continuously reeva
 - Compared static and dynamic models using F1 score.
 
 #### Results Visualization
-- [F1 Scores of Dynamic and Static Models Over Iterations](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/45974a37-e69e-4c27-864b-c242adf5d0c5)
-- [Model Performance Comparison on Different Datasets (Static Model vs. Dynamic Model)](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/4134ed3d-cd50-4de6-ae95-13010d9ff537)
+- ![F1 Scores of Dynamic and Static Models Over Iterations](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/45974a37-e69e-4c27-864b-c242adf5d0c5)
+- ![Model Performance Comparison on Different Datasets (Static Model vs. Dynamic Model)](https://github.com/mohamed9964/Continuous-Evaluation-with-Kafka/assets/53129060/4134ed3d-cd50-4de6-ae95-13010d9ff537)
 
 ### Advantages of the Dynamic Model
 - Adaptability to new threats.
@@ -57,19 +57,11 @@ The dynamic model processes data in windows of 1,000 records, continuously reeva
 - Significant computational resources for continuous retraining.
 - Performance depends on the quality of input data.
 
-## Results
-Visualizations and images reflecting the models' performance are included in the `assets` folder.
 
 ### How to Use This Repository
 - `dynamic_model.ipynb`: Notebook for the dynamic model implementation.
 - `static_model.ipynb`: Notebook for the static model implementation.
-- Results Images: Visual representations of the model's performance.
 
 ## Conclusion
 The project emphasizes the need for adaptive machine learning models in cybersecurity and the importance of selecting appropriate metrics for performance evaluation and resource management.
 
-![F1-Scores for Random Forest Using Different Feature Selection Methods]()
-![F1-Scores for Logistic Regression Using Different Feature Selection Methods]()
-![Best Model F1-Score Comparison]()
-![F1 Scores of Dynamic and Static Models Over Iterations]()
-!
